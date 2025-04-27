@@ -8,7 +8,7 @@ async function checkURL() {
         return;
     }
 
-    let apiKey = "AIzaSyAAIo6J7vKfAeUn_xLNScyMLy7hpxc4IAI";  // ضع مفتاح API الخاص بك هنا
+    let apiKey = AIzaSyAAIo6J7vKfAeUn_xLNScyMLy7hpxc4IAI
     let apiUrl = `https://safebrowsing.googleapis.com/v4/threatMatches:find?key=${apiKey}`;
 
     let requestData = {
